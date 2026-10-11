@@ -1,0 +1,15 @@
+name = "Alex"
+steps = 5000
+target= 10000
+calories_per_1000_steps= 40
+calories = (steps/1000)* calories_per_1000_steps
+percentage= (steps/target)*100
+remaining = max(0,target-steps)
+print("name",name)
+print("Steps Walked:",steps)
+print("target completed:",target)
+print("calories burnt:",calories)
+print("remaing steps:",remaining )
+print("target reached",steps>= target)
+
+
